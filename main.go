@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// pull.rebase fasle
 func attack(charName, charClass string) string {
 	if charClass == "warrior" {
 		return fmt.Sprintf("%s нанес урон противнику равный %d.", charName, 5+randint(3, 5))
